@@ -3,7 +3,7 @@ margin-left: auto;
 margin-right: auto;
 width: 960px;
 }
-.header {
+header {
 background-color: #dcdcdc;
 width: 100%;
 }
@@ -25,9 +25,14 @@ color: #777777;
 font-size: 10px;
 }
 .telephone {
-float: right;
-padding-top:20px;
+position: absolute;
+top: 30px;
+right: 330px;
 color: #777777;
+font-size: 20px;
+}
+.telephone p {
+padding-bottom: 10px;
 }
 nav {
 background-color: #777777
@@ -65,7 +70,9 @@ text-decoration: none;
 .menu ul li a:hover {
 text-decoration: underline;
 }
-
+.wrap img {
+width: 100%;
+}
 footer {
 background-color: #777777;
 }
@@ -77,6 +84,9 @@ float: left;
 }
 .news h2 {
 padding-left: 30px;
+padding-top: 20px;
+font-weight: bold;
+font-size: 30px;
 color: white;
 }
 .news p {
@@ -90,11 +100,14 @@ color: white;
 float: right;
 width: 565px;
 }
-.about h2 {
+.about h1 {
 color: #767676;
+font-size: 30px;
+padding-top: 20px;
 }
 .about p {
 color: #767676;
+padding-top: 10px;
 }
 
 .clear {
